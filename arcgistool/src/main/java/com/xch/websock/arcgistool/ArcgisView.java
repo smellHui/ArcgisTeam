@@ -13,13 +13,14 @@ import com.esri.arcgisruntime.mapping.view.MapView;
 public class ArcgisView extends LinearLayout {
 
     private MapView mapView;
+
     public ArcgisView(Context context) {
         super(context);
     }
 
     private void initView(Context ctx) {
         mapView = new MapView(ctx);
-
         addView(mapView);
     }
+
 }

@@ -28,7 +28,7 @@ import com.esri.arcgisruntime.mapping.view.WrapAroundMode;
  * Date:2019/5/9
  * Description:
  */
-public interface IMap {
+public interface IArcgisView extends IGeoView{
 
     void dispose();
 
